@@ -877,7 +877,7 @@ BOOL isExiting = FALSE;
     self.addressLabel.shadowOffset = CGSizeMake(0.0, -1.0);
     self.addressLabel.text = NSLocalizedString(@"Loading...", nil);
     self.addressLabel.textAlignment = NSTextAlignmentLeft;
-    self.addressLabel.textColor = [UIColor colorWithWhite:1.000 alpha:1.000];
+    self.addressLabel.textColor = [UIColor Green];
     self.addressLabel.userInteractionEnabled = NO;
     
     NSString* frontArrowString = NSLocalizedString(@"►", nil); // create arrow from Unicode char
